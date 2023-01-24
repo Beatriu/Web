@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    height: 110px;
+    background-image:url("Imatges/background.png");
+    align-items: center;
+}
+
+.logo{
+ width: 110px;
+ height: 110px;
+ padding: 10px;
+ margin-left: 80px;
+ margin-bottom: 80px;
+}
+
+.logo-letter {
+    float: right;
+    font-size: 3em;
+    margin-top: 30px;
+    margin-right: 80px;
+}
+
+.encabezado-img{
+    background-image: url("Imatges/nen.png");
+    height: 700px;
+   background-size: cover;
+   display: flex;
+   flex-direction: column; 
+   justify-content: center;
+   align-items: center;
+   color: #fff;
+   font-family: 'Roboto Mono', monospace;
+}
+
+.encabezado-img button{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid rgba(0,0, 0, 0.5);
+    box-shadow: 2px 2px 10px 2px rgba(0,0, 0, 0.5);
+    color:black;
+    background-color: #FFE333;
+}
+.encabezado-img button:hover{
+    background: #fff;
+}
+
+.encabezado-img h1{
+    font-size: 70px;
+    padding: 20px 0;
+    text-decoration-style: solid;
+    color: white;
+}
+
+.menu{
+    list-style: none;
+    background: #FFE333;
+    width:100%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+.menu li a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 20px;
+    padding-left:  260px;
+    transition: .5s;
+    text-align: center;
+}
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+.menu li a:hover{
+    background: #fff;
+}
+.img-container{
+background-image: url("Imatges/Fondo.png");
+width: 100%;
+height: 495px;
+padding: 0px 20px;
+
+}
+.img-container p{
+  width: 70%;
+  height: 70%;
+  padding: 0 20px;
+
+}
+.titol{
+    font-size: 70px;
+    text-decoration-style: solid;
+    color: white;
+    padding-top: 300px;
+}
+
+.institut{
+    width: 400px;
+    height: 200px;
+    border: #fff;
+    float: right;
+    margin-top: 50px;
+    margin-right: 80px;
+    
+}
+.Dades_del_Centre {
+    width: 100%;
+    background-color: yellowgreen;
+    
+}
+
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
+}
+footer{
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    padding: 2rem 8px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: auto;
+ 
+}
+footer ul li{
+    color: white;
+}
+.logofooter{
+    height: 80px;
+    margin-bottom: 1rem;
+}
+.social-icons-container, .footer-menu-container{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+.social-icon{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    border: 1px solid white;
+    margin: 1rem;
+}
+.social-icon:hover{
+    background-color: black;
+    filter: invert(1);
+}
+.social-icon:nth-of-type(2){
+    background-image: url();
+}
+.social-icon:nth-of-type(3){
+    background-image: url();
+}
+.social-icon:nth-of-type(4){
+    background-image: url();
+}
+.footer-menu-container{
+    list-style-type:none;
+    color: white;
+    font-size: 18px;
+}
+.menu-item{
+    margin: 1rem 1.5rem;
+    cursor: pointer;
+    opacity: 0.6;
+}
+.menu-item:hover{
+    opacity: 1;
+}
+footer ul li{
+    color: white;
+}
+.copyright{
+    color: white;
+    opacity: 0.3;
+    text-align: center;
+}
